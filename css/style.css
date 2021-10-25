@@ -32,8 +32,9 @@ h1 {
 }
 
 .square {
-    height: 111px;
+    /* height: 111px; */
     width: calc(90% / 7);
+    aspect-ratio: 1;
     background-color: #1389b2;
     display: flex;
     align-items: center;
