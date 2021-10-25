@@ -1,3 +1,4 @@
+/* general */
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ body {
     margin: 0 auto;
 }
 
+/* title */
 h1 {
     color: white;
     font-size: 70px;
@@ -21,6 +23,7 @@ h1 {
     text-align: center;
 }
 
+/* square */
 #container-square {
     display: flex;
     flex-flow: row wrap;
