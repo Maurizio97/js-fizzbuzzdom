@@ -6,4 +6,48 @@
 
 body {
     background-color: #083b4c;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container-square {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.square {
+    height: 111px;
+    width: calc(90% / 7);
+    background-color: #1389b2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.fizz {
+    background-color: #0bd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
+}
+
+
