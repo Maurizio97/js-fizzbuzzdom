@@ -19,18 +19,17 @@ for (let i = 1; i <= 100; i++){
     square.append(i);
     contSquare.append(square);
 
+    if (i % 5 === 0 && i % 3 === 0) {
+        // se il numero è multiplo sia di 3 che di 5 compare la scritta fizzbuz
+        square.classList.add("fizzbuzz");
+        square.innerHTML = "FizzBuzz";
+    }else if (i % 3 == 0){
     // se il numero è multiplo di 3 compare la scritta fizz
-    if (i % 3 == 0){
         square.classList.add("fizz");
         square.innerHTML = "Fizz";
-    } if (i % 5 == 0){
+    } else if (i % 5 == 0){
         // se il numero è multiplo di 5 compare la scritta buz
         square.classList.add("buzz");
         square.innerHTML = "Buzz";
-    } if (i % 5 === 0 && i % 3 === 0) {
-         // se il numero è multiplo sia di 3 che di 5 compare la scritta fizzbuz
-         square.classList.add("fizzbuzz");
-         square.innerHTML = "FizzBuzz";
     }
-
 }
